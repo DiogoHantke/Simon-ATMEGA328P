@@ -71,7 +71,7 @@ capacidade de memória e tempo de reação do jogador.
 
 <pre><code>
 .
-├── src/
+├── simon/
 │   └── simon_game.ino
 │
 ├── assets/
@@ -201,7 +201,7 @@ montagem do jogo Simon baseado em Arduino.
 </td>
 <td>
 
-<img src="assets/pinagem-arduinoUNO.png" alt="Pinagem Arduino Uno" width="400">
+<img src="assets/pinagem-arduinoUNO.png" alt="Pinagem Arduino Uno" width="700">
 
 </td>
 </tr>
@@ -210,8 +210,9 @@ montagem do jogo Simon baseado em Arduino.
 <h2 id="execucao">Diagrama visual da montagem do simon</h2>
 
 <ol>
-
-<img src="assets/circuito_tinkercad.png" width="700">
+<p align = "center">
+    <img src="assets/circuito_tinkercad.png" width="700" alt = "circuito_tinkercad.png">
+</p>
 
 <hr>
 
