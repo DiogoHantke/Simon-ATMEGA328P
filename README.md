@@ -1,3 +1,5 @@
+<img src="assets/banner_projeto.png" width="100%" alt = "circuito_tinkercad.png">
+
 <h1>Arduino Simon Game</h1>
 
 <p>
@@ -55,8 +57,8 @@ capacidade de memória e tempo de reação do jogador.
 
 <ul>
 <li><a href="#sistema">Sistema de Arquivos</a></li>
-<li><a href="#montagem">Montagem do Circuito</a></li>
 <li><a href="#pinos">Mapa de Pinos</a></li>
+<li><a href="#tinkercad">Projeto tinkercad</a></li>
 <li><a href="#execucao">Execução do Programa</a></li>
 <li><a href="#estrutura">Estrutura do Firmware</a></li>
 <li><a href="#funcionamento">Funcionamento do Jogo</a></li>
@@ -94,8 +96,6 @@ capacidade de memória e tempo de reação do jogador.
 </ul>
 
 <hr>
-
-<h2 id="montagem">Montagem do Circuito</h2>
 
 <h2 id="componentes">Lista de Componentes</h2>
 
@@ -207,16 +207,27 @@ montagem do jogo Simon baseado em Arduino.
 </tr>
 </table>
 
-<h2 id="execucao">Diagrama visual da montagem do simon</h2>
+<hr>
+
+<h2 id="execucao">Diagrama visual da montagem do Simon</h2>
+
+<p align="center">
+    <img src="assets/circuito_tinkercad.png" width="100%" alt="circuito_tinkercad.png">
+</p>
+
+<h3 id="tinkercad">Como executar no Tinkercad</h3>
 
 <ol>
-<p align = "center">
-    <img src="assets/circuito_tinkercad.png" width="700" alt = "circuito_tinkercad.png">
-</p>
+<li>Acesse o link do projeto clicando em <a href="https://www.tinkercad.com/things/298jtiYipKU-simonprojeto" target="_blank">simon_tinkercad</a>.</li>
+<li>Faça login na sua conta Tinkercad (ou crie uma gratuitamente).</li>
+<li>Na tela do projeto, clique em <strong>“Iniciar Simulação”</strong> (Start Simulation).</li>
+<li>Use os botões virtuais do circuito para jogar o Simon, observando os LEDs e ouvindo o buzzer.</li>
+<li>Para pausar ou reiniciar a simulação, use os controles do Tinkercad (Stop Simulation / Reset).</li>
+</ol>
 
 <hr>
 
-<h2 id="execucao">Execução do Programa</h2>
+<h2 id="execucao">Execução do Programa no arduíno físico</h2>
 
 <ol>
 
@@ -224,13 +235,13 @@ montagem do jogo Simon baseado em Arduino.
 
 <li>Abrir arquivo
 
-<pre><code>src/simon_game.ino</code></pre>
+<pre><code>simon/simon.ino</code></pre>
 
 </li>
 
 <li>Selecionar placa Arduino Uno</li>
 
-<li>Selecionar porta serial</li>
+<li>Selecionar porta serial (COM 3, COM 5, etc)</li>
 
 <li>Clicar em Upload</li>
 
