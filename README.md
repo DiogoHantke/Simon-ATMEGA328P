@@ -77,10 +77,6 @@ capacidade de memória e tempo de reação do jogador.
 ├── assets/
 │   ├── circuito_tinkercad.png
 │   ├── circuito_proteus.png
-│   └── pcb_layout.png
-│
-├── docs/
-│   └── algoritmo.md
 │
 └── README.md
 </code></pre>
@@ -101,15 +97,82 @@ capacidade de memória e tempo de reação do jogador.
 
 <h2 id="montagem">Montagem do Circuito</h2>
 
-<ul>
-<li>Arduino Uno</li>
-<li>4 LEDs</li>
-<li>4 resistores</li>
-<li>4 botões</li>
-<li>1 buzzer</li>
-</ul>
+<h2 id="componentes">Lista de Componentes</h2>
 
-<img src="assets/circuito_tinkercad.png" width="700">
+<p>
+A tabela abaixo apresenta os componentes eletrônicos utilizados na
+montagem do jogo Simon baseado em Arduino.
+</p>
+
+<table border="1" cellpadding="8">
+
+<tr>
+<th>Componente</th>
+<th>Quantidade</th>
+<th>Descrição</th>
+</tr>
+
+<tr>
+<td>Arduino Uno R3</td>
+<td>1</td>
+<td>Microcontrolador responsável pela execução do firmware do jogo</td>
+</tr>
+
+<tr>
+<td>Protoboard 400 pontos</td>
+<td>1</td>
+<td>Placa de pinos de prototipagem</td>
+</tr>
+
+<tr>
+<td>Push Button (Botão)</td>
+<td>4</td>
+<td>Utilizados para entrada de comandos do jogador</td>
+</tr>
+
+<tr>
+<td>LED Vermelho</td>
+<td>1</td>
+<td>Indicação visual da cor vermelha</td>
+</tr>
+
+<tr>
+<td>LED Azul</td>
+<td>1</td>
+<td>Indicação visual da cor azul</td>
+</tr>
+
+<tr>
+<td>LED Amarelo</td>
+<td>1</td>
+<td>Indicação visual da cor amarela</td>
+</tr>
+
+<tr>
+<td>LED Verde</td>
+<td>1</td>
+<td>Indicação visual da cor verde</td>
+</tr>
+
+<tr>
+<td>Resistor 800 Ω</td>
+<td>4</td>
+<td>Limitadores de corrente para os LEDs</td>
+</tr>
+
+<tr>
+<td>Resistor 1 kΩ</td>
+<td>4</td>
+<td>Resistores utilizados no circuito dos botões</td>
+</tr>
+
+<tr>
+<td>Piezo Buzzer</td>
+<td>1</td>
+<td>Responsável pela geração de feedback sonoro do jogo</td>
+</tr>
+
+</table>
 
 <hr>
 
@@ -133,6 +196,12 @@ capacidade de memória e tempo de reação do jogador.
 <tr><td>Botão Verde</td><td>A3</td></tr>
 
 </table>
+
+<h2 id="execucao">Diagrama visual da montagem do simon</h2>
+
+<ol>
+
+<img src="assets/circuito_tinkercad.png" width="700">
 
 <hr>
 
