@@ -75,7 +75,7 @@ capacidade de memória e tempo de reação do jogador.
 │   └── simon_game.ino
 │
 ├── assets/
-│   ├── circuito_tinkercad.png
+│   ├── circuito_tinkerca   d.png
 │   ├── circuito_proteus.png
 │
 └── README.md
