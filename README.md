@@ -49,6 +49,7 @@ capacidade de memória e tempo de reação do jogador.
 <ul>
 <li>Prof. Paulo Palota</li>
 <li>Prof. Ricardo Joaquim</li>
+<li>Prof. Cristiano Donizeti Ferrari</li>
 </ul>
 
 <hr>
