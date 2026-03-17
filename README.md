@@ -9,7 +9,7 @@ oferecido pelo <strong>Instituto Federal de Educação, Ciência e Tecnologia de
 
 <p>
 Este projeto implementa um jogo eletrônico inspirado no clássico
-<strong>Simon</strong>, utilizando um microcontrolador Arduino,
+<strong>Simon</strong>, utilizando um microcontrolador atmega328p (Arduino),
 LEDs coloridos, botões físicos e um buzzer para geração de feedback
 sonoro.
 </p>
