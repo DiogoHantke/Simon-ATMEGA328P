@@ -154,7 +154,7 @@ montagem do jogo Simon baseado em Arduino.
 </tr>
 
 <tr>
-<td>Resistor 800 Ω</td>
+<td>Resistor 330 Ω</td>
 <td>4</td>
 <td>Limitadores de corrente para os LEDs</td>
 </tr>
